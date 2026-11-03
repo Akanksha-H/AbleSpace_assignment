@@ -1,0 +1,13 @@
+# Environment variables — never commit credentials
+.env
+
+# Playwright session state — contains auth tokens
+auth.json
+
+# Playwright output
+playwright-report/
+test-results/
+dist/
+
+# Node modules
+node_modules/
